@@ -1,0 +1,64 @@
+[
+  {
+    "_id": "1",
+    "type": "post-reactions",
+    "user": "Mark Webber",
+    "post-title": "My first tournament today!",
+    "user-profile-pic-url": "avatar-mark-webber.webp",
+    "timestamp": "1m",
+    "read": false
+  },
+  {
+    "_id": "2",
+    "type": "new-follower",
+    "user": "Angela Gray",
+    "user-profile-pic-url": "avatar-angela-gray.webp",
+    "timestamp": "5m",
+    "read": false
+  },
+  {
+    "_id": "3",
+    "type": "new-group-member",
+    "user": "Jacob Thompson",
+    "user-profile-pic-url": "avatar-jacob-thompson.webp",
+    "group-name": "Chess Club",
+    "timestamp": "1 day",
+    "read": false
+  },
+  {
+    "_id": "4",
+    "type": "direct-message",
+    "user": "Rizky Hasanuddin",
+    "user-profile-pic-url": "avatar-rizky-hasanuddin.webp",
+    "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "timestamp": "5 days",
+    "read": true
+  },
+  {
+    "_id": "5",
+    "type": "post-picture-comment",
+    "user": "Kimberly Smith",
+    "user-profile-pic-url": "avatar-kimberly-smith.webp",
+    "post-picture-url": "image-chess.webp",
+    "timestamp": "1 week",
+    "read": true
+  },
+  {
+    "_id": "6",
+    "type": "post-reactions",
+    "user": "Nathan Peterson",
+    "post-title": "5 end-game strategies to increase your win rate",
+    "user-profile-pic-url": "avatar-nathan-peterson.webp",
+    "timestamp": "2 weeks",
+    "read": true
+  },
+  {
+    "_id": "7",
+    "type": "exit-group-member",
+    "user": "Anna Kim",
+    "user-profile-pic-url": "avatar-anna-kim.webp",
+    "group-name": "Chess Club",
+    "timestamp": "2 weeks",
+    "read": true
+  }
+]
