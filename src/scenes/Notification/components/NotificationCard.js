@@ -1,8 +1,6 @@
 import { NotificationCardStyled } from "./NotificationCardStyles";
 
 const NotificationCard = ({ data }) => {
-  console.log('Notification Card Component');
-
   const getDescriptions = (type) => {
     switch(type) {
       case 'post-reactions':

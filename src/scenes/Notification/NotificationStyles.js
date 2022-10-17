@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const NotificationWrapper = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -51,6 +51,18 @@ export const NotificationWrapper = styled.div`
       .noti-mark-all-action:hover {
         color: hsl(219, 85%, 26%);
         cursor: pointer;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    && {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 10px;
+      .notification {
+        width: 100%;
       }
     }
   }
